@@ -1,0 +1,89 @@
+# LunarLander-v3 Reinforcement Learning 
+
+## Objective
+
+This project implements the Proximal Policy Optimization (PPO) algorithm to train an intelligent agent for autonomous lunar landing in the LunarLander-v3 environment. The agent learns to control the spacecraft and perform safe landings through reinforcement learning by maximizing cumulative rewards.
+
+## Environment
+
+- **Environment:** LunarLander-v3
+- **Library:** Gymnasium (Box2D)
+- **Learning Type:** Reinforcement Learning
+- **Algorithm:** Proximal Policy Optimization (PPO)
+
+## Project Workflow
+
+### 1. Environment Setup
+- Initialize the LunarLander-v3 environment.
+- Create the PPO agent.
+
+### 2. Agent Training
+- Train the agent through continuous interaction with the environment.
+- Learn optimal landing strategies by maximizing rewards.
+
+### 3. Model Saving
+- Save the trained PPO model.
+- Store training logs for performance analysis.
+
+### 4. Model Evaluation
+- Evaluate the trained agent over multiple episodes.
+- Measure the average reward and landing performance.
+
+### 5. Visualization
+- Test the trained model.
+- Render the environment to visualize autonomous lunar landings.
+
+## Technologies Used
+
+- Python
+- Gymnasium
+- Box2D
+- Stable-Baselines3
+- NumPy
+- Matplotlib
+
+## How to Run
+
+Train the PPO model:
+
+```bash
+python train.py
+```
+
+Evaluate the trained model:
+
+```bash
+python evaluate.py
+```
+
+Test the trained agent:
+
+```bash
+python test.py
+```
+
+Generate a training curve:
+
+```bash
+python plot_training.py
+```
+
+## Results
+
+The PPO agent successfully learns to land the spacecraft safely by interacting with the environment and improving its policy over time. Training and evaluation results demonstrate effective autonomous landing performance.
+
+## Conclusion
+
+This project demonstrates the effectiveness of Proximal Policy Optimization (PPO) for solving the LunarLander-v3 reinforcement learning problem. The trained agent learns stable landing strategies and achieves reliable performance through continuous training and reward optimization.
+
+## Author
+
+**Name:** Anet Davis
+
+**Registration Number:** 23BHI10146
+
+**Application Number:** IN26011852
+
+**Batch Number:** 1A
+
+**Email ID:** anet.23bhi10146@vitbhopal.ac.in
