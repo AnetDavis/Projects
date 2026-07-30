@@ -49,37 +49,6 @@ This project develops a content-based Movie Recommendation System that suggests 
 - CSS
 - Gunicorn
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone <repository-url>
-```
-
-Navigate to the project directory:
-
-```bash
-cd Movie-Recommendation-System
-```
-
-Install the required libraries:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the Flask application:
-
-```bash
-python app.py
-```
-
-Open your browser and visit:
-
-```text
-http://127.0.0.1:5000
-```
 
 ## Recommendation Method
 
